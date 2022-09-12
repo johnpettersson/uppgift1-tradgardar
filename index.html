@@ -6,19 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trädgårdar</title>
 
+    <style>
+        h1 {
+            font-size: 2.5em;
+            margin: 20px;
+        }
 
+        body {
+            margin: 0;
+        }
+        
+        .garden {
+            height: 150px;
+            display: flex;
+            align-items: center;
+            margin: 20px 0;
+        }
+
+        .garden p {
+            color: white;
+            font-size: 2em;
+            margin: 1rem;
+        }
+
+        #garden1 {
+            background-image: url("tradgard1.jfif");
+        }
+
+        #garden2 {
+            background-image: url("tradgard2.jfif");
+        }
+
+        #garden3 {
+            background-image: url("tradgard3.jfif");
+        }
+
+        #garden4 {
+            background-image: url("tradgard4.jfif");
+        }
+
+    </style>
 </head>
 <body>
     <h1>Trädgårdar</h1>
 
-    <p>Det finns många olika trädgårdar</p>
-    <img src="tradgard1.jfif">
-    <p>Trädgårdar kan vara väldigt olika men fina ändå</p>
-    <img src="tradgard2.jfif">
-    <p>Växthus hjälper mycket när man odlar</p>
-    <img src="tradgard3.jfif">
-    <p>Blommor som blommar på olika tider på året gör att du alltid har en vacker trädgård</p>
-    <img src="tradgard4.jfif">
+    <div class="garden" id="garden1">
+        <p>Det finns många olika trädgårdar</p>
+    </div>
+
+    <div class="garden" id="garden2">
+        <p>Trädgårdar kan vara väldigt olika men fina ändå</p>
+    </div>
+
+    <div class="garden" id="garden3">
+        <p>Växthus hjälper mycket när man odlar</p>
+    </div>
+    <div class="garden" id="garden4">
+        <p>Blommor som blommar på olika tider på året gör att du alltid har en vacker trädgård</p>        
+    </div>
+
 </body>
 </html>
 
